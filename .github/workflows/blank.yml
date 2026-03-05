@@ -9,5 +9,6 @@ jobs:
     runs-on: [self-hosted, TISA]
     steps:
       - name: Echo Hello World
+        shell: pwsh
         run: echo "helloworld"
         
